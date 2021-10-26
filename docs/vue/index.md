@@ -1,7 +1,7 @@
 # vue
 
 ## 脚手架
-``` 
+```bash
 # 安装脚手架
 yarn global add @vue/cli
 vue --version

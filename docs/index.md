@@ -5,7 +5,7 @@ heroAlt: 沉迷学习
 heroText: 笔记
 tagline:
 actionText: 开始
-actionLink: /vue/
+actionLink: /js/
 features:
 - title: 
   details: 废物都是控制不住自己,而高手却能控制自己让一切都越来越好.

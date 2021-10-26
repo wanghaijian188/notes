@@ -7,18 +7,19 @@ module.exports = {
     smoothScroll: true,
 
     nav: [
-      { text: 'Vue', link: '/vue/' },
       { text: 'JS', link: '/js/' },
       { text: 'CSS', link: '/css/' },
+      { text: 'Vue', link: '/vue/' },
       { text: 'uni-app', link: '/uniapp/' },
       { text: '微信小程序', link: '/wx/' },
       { text: 'php', link: '/php/' },
       { text: '其他', link: '/other/' },
+      { text: 'Angular', link: '/Angular/'}
     ],
     sidebar: {
-      '/vue/': getVueSidebar(),
       '/js/': getJsSidebar(),
       '/css/': getCssSidebar(),
+      '/vue/': getVueSidebar(),
       '/uniapp/': getuniappSidebar(),
       '/wx/': getwxSidebar(),
       '/php/': getphpSidebar(),
@@ -102,9 +103,9 @@ function getwxSidebar() {
 function getphpSidebar() {
   return [
     {
-      text: 'javaScript',
+      text: 'php',
       children: [
-        { text: '开始', link: '/js/' },
+        { text: '模板(标签)', link: '/php/' },
       ]
     }
   ]
