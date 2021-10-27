@@ -34,6 +34,7 @@ function getVueSidebar() {
       text: 'Vue',
       children: [
         { text: '开始', link: '/vue/' },
+        { text:'生命周期', link: '/vue/The_life_cycle'},
         { text: '组件', link: '/vue/component' }
       ]
     }
