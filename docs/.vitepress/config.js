@@ -14,7 +14,8 @@ module.exports = {
       { text: '微信小程序', link: '/wx/' },
       { text: 'php', link: '/php/' },
       { text: '其他', link: '/other/' },
-      { text: 'Angular', link: '/Angular/'}
+      { text: 'Angular', link: '/Angular/'},
+      { text: 'word', link: '/word/'}
     ],
     sidebar: {
       '/js/': getJsSidebar(),
@@ -24,6 +25,8 @@ module.exports = {
       '/wx/': getwxSidebar(),
       '/php/': getphpSidebar(),
       '/other/': getotherSidebar(),
+      '/Angular/': getAngularSidebar(),
+      '/word/': getwordSidebar(),
     }
   }
 }
@@ -118,6 +121,21 @@ function getotherSidebar() {
       text: 'javaScript',
       children: [
         { text: '开始', link: '/js/' },
+      ]
+    }
+  ]
+}
+
+function getAngularSidebar(){
+
+}
+
+function getwordSidebar(){
+  return [
+    {
+      text: 'Vue',
+      children: [
+        {text:'vue',link:'/word/'}
       ]
     }
   ]
